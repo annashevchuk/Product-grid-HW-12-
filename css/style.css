@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	font-family: "Lato";
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.hero {
+	margin: 75px 90px;
+	
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.text {
+	font-size: 14px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.row,
+.row-2,
+.row-3 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.row {
+	justify-content: space-between;
+}
+
+.item {
+	position: relative;
+	margin: 15px;
+}
+
+.row-2 {
+	justify-content: space-between;
+}
+
+.item-product {
+	font-size: 13px;
+	margin: 20px 15px;
+	text-transform: uppercase;
+}
+
+.price {
+	color: #f16d7f;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+
+.row-3 {
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: 55px;
+}
+
+.star {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	color: #e4af48;
+}
+
+@media (max-width: 1024px) {
+.row,
+.row-2,
+.row-3 {
+	flex-direction: column;
+	justify-content: center;
+} 
+.item {
+	width: 270px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+}
