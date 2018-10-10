@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+.body {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
 .wrapper {
 	font-family: "Lato";
 	max-width: 1600px;
@@ -76,6 +81,12 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+	.img {
+	 	max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
 .row,
 .row-2,
 .row-3 {
