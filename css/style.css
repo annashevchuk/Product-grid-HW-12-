@@ -82,7 +82,7 @@ h1 {
 
 @media (max-width: 1024px) {
 	.img {
-	 	max-width: 100%;
+	 max-width: 100%;
 	}
 }
 
@@ -93,10 +93,11 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 } 
+
 .item {
 	width: 270px;
-    margin: 0 auto;
-    margin-bottom: 60px;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 }
